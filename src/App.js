@@ -48,7 +48,7 @@ export default function App() {
 const Task = ({ task }) => {
   return (
     <div className='taskLayout'>
-      <p> {task} </p>
+      <p  className='taskColor'> {task} </p>
 
       <div className='butttonLayout'>
         <button className='editButton'>Edit</button>
